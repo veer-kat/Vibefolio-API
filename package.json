@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "upload.js",
   "scripts": {
-    "start": "node upload.js"
+    "start": "node retrieve.js"
   },
   "type": "commonjs",
   "dependencies": {
