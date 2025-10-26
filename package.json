@@ -1,15 +1,11 @@
 {
-  "name": "portfolio_api",
+  "name": "vibefolio_api",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "upload.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node upload.js"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "type": "commonjs",
-  "description": "",
   "dependencies": {
     "dotenv": "^16.5.0",
     "express": "^5.1.0",
