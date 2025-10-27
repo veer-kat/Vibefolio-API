@@ -200,9 +200,6 @@ app.get('/api/about', async (req, res) => {
   }
 });
 
-app.use('/api', require('./upload'));
-
-
 const PORT = 5000;
 app.listen(PORT, () => {
   console.log(`Retrieve server running on port ${PORT}`);
