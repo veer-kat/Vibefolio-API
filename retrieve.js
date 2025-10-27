@@ -15,7 +15,7 @@ app.use(express.json());
 app.use((req, res, next) => {
   const allowedOrigins = [
     'http://localhost:3005',
-    'https://vibefolio.vercel.app/'
+    'https://vibefolio.vercel.app'
   ];
   
   const origin = req.headers.origin;
